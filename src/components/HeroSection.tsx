@@ -4,6 +4,7 @@ import { cn } from "@/utils/cn";
 import { Button } from "./ui/moving-border";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { WavyBackground } from "./ui/wavy-background";
+import { Vortex } from "./ui/vortex";
 
 function HeroSection() {
   const heroSectionDescription =
@@ -11,7 +12,14 @@ function HeroSection() {
   return (
     <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col item-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
       <div className="relative flex h-[40rem] w-full overflow-hidden rounded-md bg-black/[0.96] antialiased md:items-center md:justify-center">
-        <WavyBackground className="max-w-4xl mx-auto">
+        {/* <WavyBackground className="max-w-4xl mx-auto"> */}
+        <Vortex
+          backgroundColor="black"
+          rangeY={800}
+          particleCount={500}
+          baseHue={120}
+          className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
+        >
           {/* Background Grid */}
           {/* <div
             className={cn(
@@ -20,10 +28,10 @@ function HeroSection() {
             )}
           /> */}
           <div className="p-4 relative z-10 w-full text-center">
-            {/* <Spotlight
+            <Spotlight
               className="-top-40 left-0 md:-top-20 md:left-60"
               fill="red"
-            /> */}
+            />
             <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
               Master the Art of Music
             </h1>
@@ -39,7 +47,8 @@ function HeroSection() {
               </Button>
             </div>
           </div>
-        </WavyBackground>
+        </Vortex>
+        {/* </WavyBackground> */}
       </div>
     </div>
   );
