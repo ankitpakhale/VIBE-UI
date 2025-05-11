@@ -1,10 +1,12 @@
-import Link from "next/link";
-import { Spotlight } from "./ui/Spotlight";
-import { cn } from "@/utils/cn";
-import { Button } from "./ui/moving-border";
-import { TextGenerateEffect } from "./ui/text-generate-effect";
-import { WavyBackground } from "./ui/wavy-background";
-import { Vortex } from "./ui/vortex";
+'use client';
+
+import Link from 'next/link';
+import { Spotlight } from './ui/Spotlight';
+import { cn } from '@/utils/cn';
+import { Button } from './ui/moving-border';
+import { TextGenerateEffect } from './ui/text-generate-effect';
+import { WavyBackground } from './ui/wavy-background';
+import { Vortex } from './ui/vortex';
 
 function HeroSection() {
   const heroSectionDescription =
@@ -16,9 +18,10 @@ function HeroSection() {
         <Vortex
           backgroundColor="black"
           rangeY={800}
-          particleCount={500}
+          particleCount={100}
           baseHue={120}
           className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
+          rangeSpeed={0.5}
         >
           {/* Background Grid */}
           {/* <div
@@ -28,10 +31,7 @@ function HeroSection() {
             )}
           /> */}
           <div className="p-4 relative z-10 w-full text-center">
-            <Spotlight
-              className="-top-40 left-0 md:-top-20 md:left-60"
-              fill="red"
-            />
+            {/* <Spotlight className="-top-40 left-0 md:-top-20 md:left-60" fill="white" /> */}
             <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
               Master the Art of Music
             </h1>
@@ -43,7 +43,7 @@ function HeroSection() {
                 borderRadius="1.75rem"
                 className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
               >
-                <Link href={"/courses"}>Explore Courses</Link>
+                <Link href={'/courses'}>Explore Courses</Link>
               </Button>
             </div>
           </div>

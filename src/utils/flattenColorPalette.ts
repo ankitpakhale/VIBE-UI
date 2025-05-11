@@ -4,11 +4,11 @@ export function flattenColorPalette(
   const result: Record<string, string> = {};
 
   for (const [colorName, colorValue] of Object.entries(colors)) {
-    if (typeof colorValue === "string") {
+    if (typeof colorValue === 'string') {
       result[colorName] = colorValue;
-    } else if (typeof colorValue === "object" && colorValue !== null) {
+    } else if (typeof colorValue === 'object' && colorValue !== null) {
       for (const [shade, hex] of Object.entries(colorValue)) {
-        if (typeof hex === "string") {
+        if (typeof hex === 'string') {
           result[`${colorName}-${shade}`] = hex;
         }
       }
