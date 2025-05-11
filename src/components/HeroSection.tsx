@@ -5,16 +5,14 @@ import { Spotlight } from './ui/Spotlight';
 import { cn } from '@/utils/cn';
 import { Button } from './ui/moving-border';
 import { TextGenerateEffect } from './ui/text-generate-effect';
-import { WavyBackground } from './ui/wavy-background';
 import { Vortex } from './ui/vortex';
 
 function HeroSection() {
   const heroSectionDescription =
     "Dive into our comprehensive music courses and transform your musical journey today. Whether you're a beginner or looking to refine your skills, join us to unlock your true potential.";
   return (
-    <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col item-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
+    <div className="h-auto md:h-[50rem] w-full rounded-md flex flex-col item-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
       <div className="relative flex h-[40rem] w-full overflow-hidden rounded-md bg-black/[0.96] antialiased md:items-center md:justify-center">
-        {/* <WavyBackground className="max-w-4xl mx-auto"> */}
         <Vortex
           backgroundColor="black"
           rangeY={800}
@@ -48,7 +46,6 @@ function HeroSection() {
             </div>
           </div>
         </Vortex>
-        {/* </WavyBackground> */}
       </div>
     </div>
   );
