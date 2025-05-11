@@ -12,7 +12,7 @@ import {
   FaHeadphonesAlt,
   FaMapMarkerAlt,
 } from 'react-icons/fa';
-import { HiHome, HiBookOpen } from 'react-icons/hi2';
+import { HiHome, HiBookOpen, HiAcademicCap } from 'react-icons/hi2';
 
 function NavbarDemo({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
@@ -32,6 +32,14 @@ function NavbarDemo({ className }: { className?: string }) {
             icon={<HiHome className="w-6 text-white" />}
           />
         </Link>
+        <Link href={'/about-us'}>
+          <MenuItem
+            setActive={setActive}
+            active={active}
+            item="About Us"
+            icon={<HiAcademicCap className="w-6 text-white" />}
+          />
+        </Link>
         <MenuItem
           setActive={setActive}
           active={active}
@@ -39,23 +47,23 @@ function NavbarDemo({ className }: { className?: string }) {
           icon={<HiBookOpen className="w-6 text-white" />}
         >
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/all-courses">
+            <HoveredLink href="/courses">
               <FaListUl className="inline-block mr-2" />
               All Courses
             </HoveredLink>
-            <HoveredLink href="/basic-music-theory">
+            <HoveredLink href="/courses/basic-music-theory">
               <FaMusic className="inline-block mr-2" />
               Basic Music Theory
             </HoveredLink>
-            <HoveredLink href="/advanced-composition">
+            <HoveredLink href="/courses/advanced-composition">
               <FaPenNib className="inline-block mr-2" />
               Advanced Composition
             </HoveredLink>
-            <HoveredLink href="/songwriting">
+            <HoveredLink href="/courses/songwriting">
               <FaMicrophoneAlt className="inline-block mr-2" />
               Songwriting
             </HoveredLink>
-            <HoveredLink href="/music-production">
+            <HoveredLink href="/courses/music-production">
               <FaHeadphonesAlt className="inline-block mr-2" />
               Music Production
             </HoveredLink>
