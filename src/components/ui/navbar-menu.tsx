@@ -1,9 +1,9 @@
-"use client";
-import React from "react";
-import { motion } from "motion/react";
+'use client';
+import React from 'react';
+import { motion } from 'motion/react';
 
 const transition = {
-  type: "spring",
+  type: 'spring',
   mass: 0.5,
   damping: 11.5,
   stiffness: 100,
@@ -77,10 +77,7 @@ export const Menu = ({
 
 export const HoveredLink = ({ children, ...rest }: any) => {
   return (
-    <a
-      {...rest}
-      className="text-neutral-700 dark:text-neutral-200 hover:text-black "
-    >
+    <a {...rest} className="text-neutral-700 dark:text-neutral-200 hover:text-black ">
       {children}
     </a>
   );

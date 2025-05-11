@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Guitar Fundamentals",
+      "slug": "guitar-fundamentals",
+      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/guitar.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Piano for Beginners",
+      "slug": "piano-for-beginners",
+      "description": "Start your piano journey with easy-to-follow lessons and exercises.",
+      "price": 89.99,
+      "instructor": "Emily Hart",
+      "isFeatured": true,
+      "image": "/courses/piano.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Music Theory Essentials",
+      "slug": "music-theory-essentials",
+      "description": "Understand the building blocks of music including scales, chords, and rhythm.",
+      "price": 69.99,
+      "instructor": "David Kim",
+      "isFeatured": false,
+      "image": "/courses/theory.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Singing Techniques 101",
+      "slug": "singing-techniques-101",
+      "description": "Improve your vocal range and tone with proven singing techniques.",
+      "price": 74.99,
+      "instructor": "Lisa Ray",
+      "isFeatured": false,
+      "image": "/courses/singing.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Drumming Basics",
+      "slug": "drumming-basics",
+      "description": "Learn drum patterns, rhythm, and timing from a professional drummer.",
+      "price": 79.99,
+      "instructor": "Mike Johnson",
+      "isFeatured": true,
+      "image": "/courses/drums.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Music Production in Logic Pro X",
+      "slug": "music-production-logic-pro",
+      "description": "Produce your own tracks using Logic Pro X with this beginner-friendly course.",
+      "price": 109.99,
+      "instructor": "Natalie Brooks",
+      "isFeatured": true,
+      "image": "/courses/logicpro.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Advanced Music Composition",
+      "slug": "advanced-music-composition",
+      "description": "Compose professional-level music with advanced techniques and theory.",
+      "price": 119.99,
+      "instructor": "Thomas Greene",
+      "isFeatured": false,
+      "image": "/courses/composition.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Jazz Improvisation Mastery",
+      "slug": "jazz-improvisation-mastery",
+      "description": "Master the art of improvisation in jazz through practical exercises.",
+      "price": 89.99,
+      "instructor": "Cynthia Lee",
+      "isFeatured": false,
+      "image": "/courses/jazz.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Electronic Music Production",
+      "slug": "electronic-music-production",
+      "description": "Create EDM, house, and more using modern digital audio tools.",
+      "price": 129.99,
+      "instructor": "Alex Turner",
+      "isFeatured": true,
+      "image": "/courses/edm.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Songwriting Workshop",
+      "slug": "songwriting-workshop",
+      "description": "Write meaningful and catchy songs with help from experienced songwriters.",
+      "price": 84.99,
+      "instructor": "Rachel Adams",
+      "isFeatured": false,
+      "image": "/courses/songwriting.jpg"
+    }
+  ]
+}
