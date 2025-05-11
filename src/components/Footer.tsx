@@ -56,7 +56,7 @@ const Footer = () => {
               <HiHome className="w-5 h-5 text-white" />
               Home
             </Link>
-            <Link href={'/about'} className="flex items-center gap-2">
+            <Link href={'/about-us'} className="flex items-center gap-2">
               <HiInformationCircle className="w-5 h-5 text-white" />
               About Us
             </Link>
