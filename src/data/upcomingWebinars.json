@@ -1,0 +1,32 @@
+[
+    {
+        "title": "MusicMaster Academy",
+        "description": "An online music school offering courses in music theory, performance, and composition, for students of all levels.",
+        "link": "/"
+    },
+    {
+        "title": "The Music Workshop",
+        "description": "A virtual space for passionate musicians to learn, practice, and collaborate with industry professionals in real-time.",
+        "link": "/"
+    },
+    {
+        "title": "SoundLab Music School",
+        "description": "An interactive music school providing webinars, lessons, and masterclasses for aspiring musicians and producers.",
+        "link": "/"
+    },
+    {
+        "title": "Harmonix Music Academy",
+        "description": "A virtual academy specializing in music production, vocal training, and instrumental skills with live webinars and personalized coaching.",
+        "link": "/"
+    },
+    {
+        "title": "Virtuoso Music Webinars",
+        "description": "Attend live webinars hosted by world-class musicians, offering expert guidance on various aspects of music performance and composition.",
+        "link": "/"
+    },
+    {
+        "title": "Melodia Music School",
+        "description": "A music school offering an extensive range of online courses, live workshops, and one-on-one sessions with top music educators.",
+        "link": "/"
+    }
+]

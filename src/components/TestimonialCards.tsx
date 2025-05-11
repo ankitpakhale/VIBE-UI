@@ -5,10 +5,11 @@ import testimonialData from '../data/testimonials.json';
 import { InfiniteMovingCards } from './ui/infinite-moving-cards';
 import { cn } from '@/utils/cn';
 import { Carousel } from './ui/carousel';
+import Link from 'next/link';
 
 const TestimonialCards = () => {
   return (
-    <>
+    <div className="py-12 mt-5 bg-grey-900">
       <div className="text-center">
         <h2 className="text-base font-semibold text-teal-600 tracking-wide uppercase">
           Testimonials
@@ -35,7 +36,15 @@ const TestimonialCards = () => {
           <Carousel slides={testimonialData} />
         </div>
       </div>
-    </>
+      <div className="mt-5 text-center">
+        <Link
+          href={'/testimonials'}
+          className="px-4 py-2 rounded border border-neutral-600 text-neutral-600 bg-white hover:bg-teal-100 transition-duration-200"
+        >
+          Learn More
+        </Link>
+      </div>
+    </div>
   );
 };
 
