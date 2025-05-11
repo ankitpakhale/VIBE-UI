@@ -1,0 +1,62 @@
+[
+    {
+        "quote": "Joining this music program reignited my passion for the piano. I now play every day with confidence and joy.",
+        "name": "Emily R.",
+        "title": "Piano Enthusiast",
+        "src": "https://images.unsplash.com/photo-1494806812796-244fe51b774d?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "quote": "The lessons are structured, yet flexible enough to let you explore your own style. It's a perfect balance for growth.",
+        "name": "Marcus T.",
+        "title": "Guitar Student",
+        "src": "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "quote": "Before this course, I struggled with rhythm and timing. Now I feel the beat naturally — it's like second nature.",
+        "name": "Leah M.",
+        "title": "Drumming Beginner",
+        "src": "https://images.unsplash.com/photo-1590041794748-2d8eb73a571c?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "quote": "I always wanted to write my own songs but didn’t know where to start. The songwriting module was a game-changer.",
+        "name": "Daniel K.",
+        "title": "Aspiring Songwriter",
+        "src": "https://images.unsplash.com/photo-1679420437432-80cfbf88986c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "quote": "I love how every instructor genuinely cares. Their feedback helped me improve faster than I ever expected.",
+        "name": "Sophia L.",
+        "title": "Vocal Student",
+        "src": "https://images.unsplash.com/photo-1494806812796-244fe51b774d?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "quote": "Even online, the energy of the classes is incredible. You feel connected, inspired, and part of a community.",
+        "name": "Alex P.",
+        "title": "Remote Learner",
+        "src": "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "quote": "From scales to improvisation, I learned more in three months here than in a year of self-teaching.",
+        "name": "Jason B.",
+        "title": "Jazz Piano Student",
+        "src": "https://images.unsplash.com/photo-1590041794748-2d8eb73a571c?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "quote": "Their approach to music theory made everything click for me. It used to be overwhelming — now it's empowering.",
+        "name": "Nina C.",
+        "title": "Music Theory Learner",
+        "src": "https://images.unsplash.com/photo-1679420437432-80cfbf88986c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "quote": "This platform made it easy to fit music into my busy schedule. Lessons are clear, fun, and incredibly effective.",
+        "name": "Raj S.",
+        "title": "Working Professional",
+        "src": "https://images.unsplash.com/photo-1494806812796-244fe51b774d?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "quote": "I enrolled to learn an instrument. I ended up finding a passion I didn’t know I had. Truly life-changing.",
+        "name": "Isabella W.",
+        "title": "Beginner Musician",
+        "src": "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]
