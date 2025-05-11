@@ -15,11 +15,13 @@ export const MenuItem = ({
   setActive,
   active,
   item,
+  icon,
   children,
 }: {
   setActive: (item: string) => void;
   active: string | null;
   item: string;
+  icon: React.ReactNode;
   children?: React.ReactNode;
 }) => {
   return (
@@ -28,6 +30,7 @@ export const MenuItem = ({
         transition={{ duration: 0.3 }}
         className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
       >
+        {icon && <span className="inline-block">{icon}</span>}
         {item}
       </motion.p>
       {active !== null && (
