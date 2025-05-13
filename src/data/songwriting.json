@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Songwriting Workshop",
+        "slug": "songwriting-workshop",
+        "description": "Write meaningful and catchy songs with help from experienced songwriters.",
+        "price": 84.99,
+        "instructor": "Rachel Adams",
+        "isFeatured": true,
+        "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=2560&q=80"
+    },
+    {
+        "id": 2,
+        "title": "Lyrics That Stick",
+        "slug": "lyrics-that-stick",
+        "description": "Master the art of writing lyrics that resonate with listeners and tell compelling stories.",
+        "price": 79.99,
+        "instructor": "Daniel Cruz",
+        "isFeatured": false,
+        "image": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=2560&q=80"
+    },
+    {
+        "id": 3,
+        "title": "Melody & Hook Creation",
+        "slug": "melody-hook-creation",
+        "description": "Learn techniques to write unforgettable melodies and hooks that grab attention.",
+        "price": 89.99,
+        "instructor": "Nina West",
+        "isFeatured": true,
+        "image": "https://images.unsplash.com/photo-1616474748160-10a75963d61c?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 4,
+        "title": "Song Structure Simplified",
+        "slug": "song-structure-simplified",
+        "description": "Understand song sections, transitions, and frameworks used by top artists.",
+        "price": 74.99,
+        "instructor": "Leo Morgan",
+        "isFeatured": false,
+        "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=2560&q=80"
+    },
+    {
+        "id": 5,
+        "title": "Writing for Different Genres",
+        "slug": "writing-different-genres",
+        "description": "Adapt your songwriting style to pop, rock, hip-hop, country, and more.",
+        "price": 94.99,
+        "instructor": "Jessica Lane",
+        "isFeatured": true,
+        "image": "https://images.unsplash.com/photo-1710010966055-da0bcafdbd8c?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 6,
+        "title": "Collaborative Songwriting",
+        "slug": "collaborative-songwriting",
+        "description": "Learn how to co-write songs, share ideas effectively, and work in creative teams.",
+        "price": 69.99,
+        "instructor": "Marcus Bell",
+        "isFeatured": false,
+        "image": "https://plus.unsplash.com/premium_photo-1742997512515-e8e51575db95?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]

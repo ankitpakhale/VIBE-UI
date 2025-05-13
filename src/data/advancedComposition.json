@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Advanced Music Composition",
+        "slug": "advanced-music-composition",
+        "description": "Compose professional-level music with advanced techniques and music theory.",
+        "price": 119.99,
+        "instructor": "Thomas Greene",
+        "isFeatured": true,
+        "image": "https://plus.unsplash.com/premium_photo-1664303038067-fe3c56834803?q=80&w=1373&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 2,
+        "title": "Modern Orchestration Techniques",
+        "slug": "modern-orchestration-techniques",
+        "description": "Explore orchestration for film scores, games, and modern classical pieces.",
+        "price": 129.99,
+        "instructor": "Claire Whitman",
+        "isFeatured": false,
+        "image": "https://plus.unsplash.com/premium_photo-1661434240769-dc337a3e2b3f?q=80&w=1439&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 3,
+        "title": "Harmonic Progressions Masterclass",
+        "slug": "harmonic-progressions-masterclass",
+        "description": "Master complex harmonic structures to create emotionally powerful compositions.",
+        "price": 99.99,
+        "instructor": "Elliot Ross",
+        "isFeatured": true,
+        "image": "https://plus.unsplash.com/premium_photo-1667587246308-815990f8c75d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 4,
+        "title": "Composing for Strings",
+        "slug": "composing-for-strings",
+        "description": "Dive deep into techniques for writing expressive and dynamic string arrangements.",
+        "price": 89.99,
+        "instructor": "Sofia Renner",
+        "isFeatured": false,
+        "image": "https://plus.unsplash.com/premium_photo-1682462807999-990e61669fe0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 5,
+        "title": "Rhythm & Meter Innovations",
+        "slug": "rhythm-meter-innovations",
+        "description": "Learn to create unique rhythmic patterns and explore unusual time signatures.",
+        "price": 109.99,
+        "instructor": "Raj Patel",
+        "isFeatured": false,
+        "image": "https://images.unsplash.com/photo-1571512379940-716326f35dbd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 6,
+        "title": "Score Writing for Ensembles",
+        "slug": "score-writing-ensembles",
+        "description": "Understand advanced score formatting and arranging for various ensembles.",
+        "price": 114.99,
+        "instructor": "Vanessa King",
+        "isFeatured": true,
+        "image": "https://plus.unsplash.com/premium_photo-1723618909795-f5ee30cf5697?q=80&w=1439&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]

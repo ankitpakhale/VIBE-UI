@@ -1,0 +1,52 @@
+[
+    {
+        "id": 11,
+        "title": "Notation & Scales",
+        "slug": "notation-scales",
+        "description": "Learn how to read and write musical notation, and understand major and minor scales.",
+        "price": 59.99,
+        "instructor": "Sophia Martinez",
+        "isFeatured": false,
+        "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=2560&auto=format&fit=crop"
+    },
+    {
+        "id": 12,
+        "title": "Intervals & Chords",
+        "slug": "intervals-chords",
+        "description": "Explore the distance between notes with intervals and build chords for harmony.",
+        "price": 64.99,
+        "instructor": "Carlos Rivera",
+        "isFeatured": true,
+        "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?q=80&w=2560&auto=format&fit=crop"
+    },
+    {
+        "id": 13,
+        "title": "Rhythm & Meter",
+        "slug": "rhythm-meter",
+        "description": "Master the fundamentals of rhythm, time signatures, and meter to keep steady time.",
+        "price": 54.99,
+        "instructor": "Aisha Patel",
+        "isFeatured": false,
+        "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=2560&auto=format&fit=crop"
+    },
+    {
+        "id": 14,
+        "title": "Melody & Ear Training",
+        "slug": "melody-ear-training",
+        "description": "Develop melodic skills and ear training exercises to recognize pitches and patterns.",
+        "price": 69.99,
+        "instructor": "Liam O’Connor",
+        "isFeatured": true,
+        "image": "https://images.unsplash.com/photo-1699707143114-343925b8378f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 15,
+        "title": "Basic Harmony Concepts",
+        "slug": "basic-harmony",
+        "description": "Understand chord progressions, cadences, and the basics of harmonic function.",
+        "price": 62.99,
+        "instructor": "Elena Smirnova",
+        "isFeatured": false,
+        "image": "https://images.unsplash.com/photo-1626539896924-b328af4ef01d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]
