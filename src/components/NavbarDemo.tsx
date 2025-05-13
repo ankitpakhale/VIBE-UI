@@ -47,7 +47,7 @@ function NavbarDemo({ className }: { className?: string }) {
           icon={<HiBookOpen className="w-6 text-white" />}
         >
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/courses">
+            <HoveredLink href="/courses/all-courses">
               <FaListUl className="inline-block mr-2" />
               All Courses
             </HoveredLink>

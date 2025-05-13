@@ -3,6 +3,7 @@
 import { CardBody, CardContainer, CardItem } from '@/components/ui/3d-card';
 import courseData from '@/data/musicCourses.json';
 import Link from 'next/link';
+
 const page = () => {
   interface Course {
     id: number;

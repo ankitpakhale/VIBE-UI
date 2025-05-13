@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "FL Studio: Beat Making Essentials",
+        "slug": "fl-studio-beat-making-essentials",
+        "description": "Learn to produce chart-topping beats using FL Studio with hands-on projects.",
+        "price": 99.99,
+        "instructor": "Jake Miller",
+        "isFeatured": true,
+        "image": "https://images.unsplash.com/photo-1641444859779-0728b9d25122?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 2,
+        "title": "Ableton Live: Electronic Music Production",
+        "slug": "ableton-live-electronic-music-production",
+        "description": "Master the tools of Ableton Live and create professional-quality electronic tracks.",
+        "price": 119.99,
+        "instructor": "Samantha Rhodes",
+        "isFeatured": false,
+        "image": "https://plus.unsplash.com/premium_photo-1661678079655-10fe58ab8d30?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 3,
+        "title": "Mixing & Mastering for Beginners",
+        "slug": "mixing-mastering-beginners",
+        "description": "Understand the fundamentals of mixing and mastering to enhance your music’s quality.",
+        "price": 89.99,
+        "instructor": "Leon Grant",
+        "isFeatured": false,
+        "image": "https://plus.unsplash.com/premium_photo-1682462807951-57e1c67dbf8e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 4,
+        "title": "Studio Recording Techniques",
+        "slug": "studio-recording-techniques",
+        "description": "Record vocals and instruments like a pro with this in-depth studio guide.",
+        "price": 104.99,
+        "instructor": "Dana Fields",
+        "isFeatured": true,
+        "image": "https://plus.unsplash.com/premium_photo-1682614332757-e35e65241bee?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]
