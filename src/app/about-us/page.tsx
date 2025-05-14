@@ -70,8 +70,8 @@ const page = () => {
               <p className="absolute top-1/2 mx-auto max-w-sm -translate-y-3/4 text-center text-2xl text-white md:text-4xl">
                 Finally you found what makes us unique 💡
               </p>
-              {whatMakesUsUniqueData.map((item) => (
-                <DraggableCardBody className={item.className}>
+              {whatMakesUsUniqueData.map((item, index) => (
+                <DraggableCardBody key={index + 1} className={item.className}>
                   <img
                     src={item.image}
                     alt={item.title}
@@ -100,8 +100,8 @@ const page = () => {
               during beta.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-10 justify-items-center antialiased">
-              {kpiData.map((item) => (
-                <GlowingStarsBackgroundCard>
+              {kpiData.map((item, index) => (
+                <GlowingStarsBackgroundCard key={index}>
                   <GlowingStarsTitle>{item.title}</GlowingStarsTitle>
                   <div className="flex justify-between items-end">
                     <GlowingStarsDescription>{item.description}</GlowingStarsDescription>

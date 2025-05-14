@@ -54,7 +54,7 @@ const FeaturedCourses = () => {
                     <Link href={`/courses/${course.slug}`}>Buy Now</Link>
                   </span>
                   <span className="bg-white text-black text-xs font-bold px-2 py-1 rounded-md dark:bg-neutral-200 dark:text-black">
-                    {course.price}
+                    $ {course.price}
                   </span>
                 </button>
               </BackgroundGradient>
@@ -65,8 +65,8 @@ const FeaturedCourses = () => {
 
       <div className="mt-20 text-center">
         <Link
-          href={'/courses'}
-          className="px-4 py-2 rounded border border-neutral-600 text-neutral-600 bg-white hover:bg-teal-100 transition-duration-200"
+          href={'/courses/all-courses'}
+          className="bg-teal-600 text-white py-2 px-4 rounded my-5 hover:bg-teal-700"
         >
           View All Courses
         </Link>
