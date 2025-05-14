@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import whyChooseUsContent from '../data/whyChooseUs.json';
 import { FocusCards } from './ui/focus-cards';
