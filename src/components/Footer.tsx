@@ -58,7 +58,7 @@ const Footer = () => {
           <div className="flex relative flex-col">
             <h2 className="text-2xl text-white font-semibold mb-5">Quick Links</h2>
             <div className="flex flex-col gap-4">
-              <Link href={'/home'} className="flex items-center gap-2">
+              <Link href={'/'} className="flex items-center gap-2">
                 <HiHome className="w-5 h-5 text-white" />
                 Home
               </Link>
