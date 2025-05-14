@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import { HiHome, HiInformationCircle, HiBookOpen, HiPhone } from 'react-icons/hi2';
 import {

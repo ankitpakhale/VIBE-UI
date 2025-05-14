@@ -1,3 +1,5 @@
+'use client';
+
 import { cn } from '@/utils/cn';
 import { AnimatePresence, motion } from 'motion/react';
 

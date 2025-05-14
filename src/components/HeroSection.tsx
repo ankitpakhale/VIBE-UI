@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { Spotlight } from './ui/Spotlight';
 import { cn } from '@/utils/cn';
-import { Button } from './ui/moving-border';
 import { TextGenerateEffect } from './ui/text-generate-effect';
 import { Vortex } from './ui/vortex';
 
@@ -40,12 +39,9 @@ function HeroSection() {
               words={heroSectionDescription}
             />
             <div className="my-8">
-              <Button
-                borderRadius="1.75rem"
-                className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
-              >
+              <button className="bg-teal-600 text-white py-2 px-4 rounded my-5 hover:bg-teal-700">
                 <Link href={'/courses/all-courses'}>Explore Courses</Link>
-              </Button>
+              </button>
             </div>
           </div>
         </Vortex>
