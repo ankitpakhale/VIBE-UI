@@ -13,6 +13,7 @@ import {
   FaRegCopyright,
 } from 'react-icons/fa';
 import { BackgroundBeamsWithCollision } from './ui/background-beams-with-collision';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
           px-4 sm:px-6 lg:px-8
           grid
           grid-cols-1
-          sm:grid-cols-2
+          sm:grid-cols-1
           lg:grid-cols-4
           gap-8
           text-center    /* center all content by default */ :contentReference[oaicite:0]{index=0}
@@ -36,7 +37,10 @@ const Footer = () => {
         >
           {/* About us */}
           <div className="flex relative flex-col">
-            <h2 className="text-2xl text-white font-semibold mb-5">About us</h2>
+            {/* <h2 className="text-2xl text-white font-semibold mb-5">About us</h2> */}
+            <Link href="/" className="flex-shrink-0 mb-3 ml-2">
+              <Image src="/logo.png" alt="Site Logo" width={200} height={200} priority />
+            </Link>
             <p
               className="
               text-base text-gray-400
@@ -47,10 +51,9 @@ const Footer = () => {
               first-letter:mr-2
             "
             >
-              At our music school, we foster creativity and musical excellence through
-              personalized instruction and hands-on experience. Whether you're a beginner
-              or an advanced student, our expert instructors guide you every step of the
-              way.
+              At our music school, we nurture creativity and musical skill through
+              personalized lessons and hands-on experience, catering to both beginners and
+              advanced students with expert guidance.
             </p>
           </div>
 
