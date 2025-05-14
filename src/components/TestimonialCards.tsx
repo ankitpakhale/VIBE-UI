@@ -38,8 +38,8 @@ const TestimonialCards = () => {
       </div>
       <div className="mt-5 text-center">
         <Link
-          href={'/testimonials'}
-          className="px-4 py-2 rounded border border-neutral-600 text-neutral-600 bg-white hover:bg-teal-100 transition-duration-200"
+          href={'#'}
+          className="bg-teal-600 text-white py-2 px-4 rounded my-5 hover:bg-teal-700"
         >
           Learn More
         </Link>
