@@ -1,9 +1,10 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 import { HoveredLink, Menu, MenuItem } from './ui/navbar-menu';
 import { cn } from '@/utils/cn';
-import Link from 'next/link';
 import {
   FaMusic,
   FaListUl,
@@ -14,37 +15,50 @@ import {
 } from 'react-icons/fa';
 import { HiHome, HiBookOpen, HiAcademicCap } from 'react-icons/hi2';
 
-function NavbarDemo({ className }: { className?: string }) {
+interface NavbarDemoProps {
+  className?: string;
+}
+
+const NavbarDemo: React.FC<NavbarDemoProps> = ({ className }) => {
   const [active, setActive] = useState<string | null>(null);
+
   return (
     <div
       className={cn(
-        'fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 border-white',
+        'fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 flex items-center justify-center border-white',
         className
       )}
     >
+      {/* Menu */}
       <Menu setActive={setActive}>
-        <Link href={'/'}>
+        {/* Logo */}
+        <Link href="/" className="flex-shrink-0">
+          <Image src="/logo.png" alt="Site Logo" width={120} height={120} priority />
+        </Link>
+
+        <Link href="/">
           <MenuItem
             setActive={setActive}
             active={active}
             item="Home"
-            icon={<HiHome className="w-6 text-white" />}
+            icon={<HiHome className="w-6 text-white mt-2" />}
           />
         </Link>
-        <Link href={'/about-us'}>
+
+        <Link href="/about-us">
           <MenuItem
             setActive={setActive}
             active={active}
             item="About Us"
-            icon={<HiAcademicCap className="w-6 text-white" />}
+            icon={<HiAcademicCap className="w-6 text-white mt-2" />}
           />
         </Link>
+
         <MenuItem
           setActive={setActive}
           active={active}
           item="Our Courses"
-          icon={<HiBookOpen className="w-6 text-white" />}
+          icon={<HiBookOpen className="w-6 text-white mt-2" />}
         >
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/courses/all-courses">
@@ -69,16 +83,18 @@ function NavbarDemo({ className }: { className?: string }) {
             </HoveredLink>
           </div>
         </MenuItem>
-        <Link href={'/contact'}>
+
+        <Link href="/contact">
           <MenuItem
             setActive={setActive}
             active={active}
             item="Contact Us"
-            icon={<FaMapMarkerAlt className="w-6 text-white" />}
+            icon={<FaMapMarkerAlt className="w-6 text-white mt-2" />}
           />
         </Link>
       </Menu>
     </div>
   );
-}
+};
+
 export default NavbarDemo;
