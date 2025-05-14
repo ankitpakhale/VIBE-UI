@@ -14,7 +14,7 @@ import { BackgroundBeamsWithCollision } from './ui/background-beams-with-collisi
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-gray-600 to-gray-700 text-gray-400">
+    <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-gray-400">
       <BackgroundBeamsWithCollision className="pt-5 flex flex-col">
         <div
           className="
