@@ -5,7 +5,7 @@ import upcomingWebinarData from '../data/upcomingWebinars.json';
 import { HoverEffect } from './ui/card-hover-effect';
 const UpcomingWebinars = () => {
   return (
-    <div className="mt-20 p-12 bg-grey-900">
+    <div className="mt-20 py-12 bg-grey-900">
       <div className="max-w-7xl mx-auto px-0 sm:px-6">
         <div className="text-center">
           <h2 className="text-base font-semibold text-teal-600 tracking-wide uppercase">
