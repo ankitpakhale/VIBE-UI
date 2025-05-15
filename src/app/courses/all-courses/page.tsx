@@ -18,7 +18,7 @@ const page = () => {
         </div>
         <div className="flex flex-wrap justify-center py-5">
           {courseData.courses.map((course: Course) => (
-            <CourseCard course={course} />
+            <CourseCard key={course.id} course={course} />
           ))}
         </div>
       </div>
