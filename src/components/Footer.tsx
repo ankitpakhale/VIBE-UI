@@ -52,9 +52,10 @@ const Footer = () => {
               first-letter:mr-2
             "
             >
-              At our music school, we nurture creativity and musical skill through
-              personalized lessons and hands-on experience, catering to both beginners and
-              advanced students with expert guidance.
+              VIBE which stands for{' '}
+              <span className="italic">Vocal & Instrumental Building Experience</span> is
+              an AI-powered platform making music education accessible, personalized, and
+              inspiring for learners of all ages and levels.
             </p>
           </div>
 
