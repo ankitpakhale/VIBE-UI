@@ -22,23 +22,24 @@ const Footer = () => {
         <div
           className="
           py-2
-          max-w-6xl mx-auto
+          max-w-6xl 
+          mx-auto
           px-4 sm:px-6 lg:px-8
           grid
           grid-cols-1
           sm:grid-cols-1
           lg:grid-cols-4
           gap-8
-          text-center    /* center all content by default */ :contentReference[oaicite:0]{index=0}
-          sm:text-left   /* left-align text on small screens and larger */ :contentReference[oaicite:1]{index=1}
-          justify-items-center  /* center grid items by default */ :contentReference[oaicite:2]{index=2}
-          sm:justify-items-start /* left-align grid items on sm: and up */ :contentReference[oaicite:3]{index=3}
+          text-center    /* center all content by default */
+          sm:text-left   /* left-align text on small screens and larger */
+          justify-items-center  /* center grid items by default */
+          sm:justify-items-start /* left-align grid items on sm: and up */
         "
         >
           {/* About us */}
           <div className="flex relative flex-col">
             {/* <h2 className="text-2xl text-white font-semibold mb-5">About us</h2> */}
-            <Link href="/" className="flex-shrink-0 mb-3 ml-2">
+            <Link href="/" className="flex-shrink-0 mb-3 mx-auto sm:mx-0 sm:ml-2">
               <Image src="/logo.png" alt="Site Logo" width={200} height={200} priority />
             </Link>
             <p
