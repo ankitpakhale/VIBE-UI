@@ -87,8 +87,7 @@ const page = () => {
         </div>
 
         {/* Key Stats & KPIs */}
-        <div className="px-30 flex mt-30 flex-col items-center justify-center">
-          {/* Key Stats & KPIs */}
+        <div className="px-5 sm:px-30 flex mt-30 flex-col items-center justify-center">
           <div className="mt-10">
             <h2 className="md:text-4xl text-xl text-white relative z-20 text-center my-2">
               📊 Key Stats & KPIs
