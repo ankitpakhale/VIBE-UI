@@ -10,15 +10,7 @@ import Link from 'next/link';
 const TestimonialCards = () => {
   return (
     <div className="py-12 mt-5 bg-grey-900">
-      <div className="text-center">
-        <h2 className="text-base font-semibold text-teal-600 tracking-wide uppercase">
-          Testimonials
-        </h2>
-        <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-          Stories That Inspire Music
-        </p>
-      </div>
-      <div className="relative flex h-[50rem] w-full items-center justify-center bg-white dark:bg-black">
+      <div className="relative flex h-auto w-full items-center justify-center bg-white dark:bg-black">
         <div
           className={cn(
             'absolute inset-0',
@@ -29,17 +21,24 @@ const TestimonialCards = () => {
         />
         {/* Radial gradient for the container to give a faded look */}
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
-        <div className="h-[40rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
+        <div className="h-[40rem] sm:h-[45rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
           {/* TODO: Fix InfiniteMovingCards sliding issue */}
           {/* <InfiniteMovingCards items={testimonialData} direction="right" speed="slow" /> */}
-
+          <div className="text-center mb-20">
+            <h2 className="text-base font-semibold text-teal-600 tracking-wide uppercase">
+              Testimonials
+            </h2>
+            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+              Stories That Inspire Music
+            </p>
+          </div>
           <Carousel slides={testimonialData} />
         </div>
       </div>
-      <div className="mt-5 text-center">
+      <div className="my-2 text-center">
         <Link
           href={'#'}
-          className="bg-teal-600 text-white py-2 px-4 rounded my-5 hover:bg-teal-700"
+          className="bg-teal-600 text-white py-2 px-4 rounded hover:bg-teal-700"
         >
           Learn More
         </Link>
