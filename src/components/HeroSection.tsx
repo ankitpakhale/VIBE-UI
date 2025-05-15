@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { TextGenerateEffect } from './ui/text-generate-effect';
 import { Vortex } from './ui/vortex';
 import PageHeading from './PageHeading';
+import GradientButton from './GradientButton';
 
 function HeroSection() {
   const heroSectionDescription =
@@ -35,9 +36,9 @@ function HeroSection() {
               words={heroSectionDescription}
             />
             <div className="my-8">
-              <button className="bg-teal-600 text-white py-2 px-4 rounded my-5 hover:bg-teal-700">
+              <GradientButton>
                 <Link href={'/courses/all-courses'}>Explore Courses</Link>
-              </button>
+              </GradientButton>
             </div>
           </div>
         </Vortex>
