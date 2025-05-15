@@ -10,17 +10,16 @@ import Link from 'next/link';
 const TestimonialCards = () => {
   return (
     <div className="py-12 mt-5 bg-grey-900">
-      <div className="relative flex h-auto w-full items-center justify-center bg-white dark:bg-black">
+      <div className="relative flex h-auto w-full items-center justify-center bg-black">
         <div
           className={cn(
             'absolute inset-0',
             '[background-size:20px_20px]',
-            '[background-image:radial-gradient(#d4d4d4_1px,transparent_1px)]',
-            'dark:[background-image:radial-gradient(#404040_1px,transparent_1px)]'
+            '[background-image:radial-gradient(#404040_1px,transparent_1px)]'
           )}
         />
         {/* Radial gradient for the container to give a faded look */}
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] bg-black"></div>
         <div className="h-[40rem] sm:h-[45rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
           {/* TODO: Fix InfiniteMovingCards sliding issue */}
           {/* <InfiniteMovingCards items={testimonialData} direction="right" speed="slow" /> */}
@@ -33,15 +32,15 @@ const TestimonialCards = () => {
             </p>
           </div>
           <Carousel slides={testimonialData} />
+          <div className="mt-25 text-center">
+            <Link
+              href={'#'}
+              className="bg-teal-600 text-white py-2 px-4 rounded hover:bg-teal-700"
+            >
+              Learn More
+            </Link>
+          </div>
         </div>
-      </div>
-      <div className="my-2 text-center">
-        <Link
-          href={'#'}
-          className="bg-teal-600 text-white py-2 px-4 rounded hover:bg-teal-700"
-        >
-          Learn More
-        </Link>
       </div>
     </div>
   );

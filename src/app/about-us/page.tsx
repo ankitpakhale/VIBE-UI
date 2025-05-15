@@ -1,5 +1,6 @@
 'use client';
 
+import PageHeading from '@/components/PageHeading';
 import { BackgroundBeams } from '@/components/ui/background-beams';
 import {
   DraggableCardBody,
@@ -18,10 +19,9 @@ const page = () => {
   return (
     <>
       <div className="pt-36 h-full w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
-        <div className="px-30 flex flex-col items-center justify-center">
-          <h1 className="md:text-6xl text-xl text-white relative z-20 text-center my-10">
-            About Us
-          </h1>
+        <div className="px-5 sm:px-30 flex flex-col items-center justify-center">
+          <PageHeading title="About Us" />
+
           {/* Intro */}
           <div className="mt-10">
             <p className="text-center py-5 text-neutral-300 relative z-20">
@@ -77,7 +77,7 @@ const page = () => {
                     alt={item.title}
                     className="pointer-events-none relative z-20 h-80 w-80 object-cover"
                   />
-                  <h3 className="mt-4 text-center text-2xl font-bold text-neutral-700 dark:text-neutral-300">
+                  <h3 className="mt-4 text-center text-2xl font-bold text-neutral-300">
                     {item.title}
                   </h3>
                 </DraggableCardBody>
@@ -136,7 +136,7 @@ const page = () => {
               </span>
               .
             </p>
-            <p className="font-bold">
+            <p className="font-bold text-neutral-300">
               VIBE is not just about learning music. It’s about loving music, living
               music, and evolving through music.
             </p>

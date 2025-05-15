@@ -1,10 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { Spotlight } from './ui/Spotlight';
-import { cn } from '@/utils/cn';
 import { TextGenerateEffect } from './ui/text-generate-effect';
 import { Vortex } from './ui/vortex';
+import PageHeading from './PageHeading';
 
 function HeroSection() {
   const heroSectionDescription =
@@ -28,10 +27,7 @@ function HeroSection() {
             )}
           /> */}
           <div className="p-4 relative z-10 w-full text-center">
-            {/* <Spotlight className="-top-40 left-0 md:-top-20 md:left-60" fill="white" /> */}
-            <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-              Master the Art of Music
-            </h1>
+            <PageHeading title="Master the Art of Music" />
             <TextGenerateEffect
               className={
                 'mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto'

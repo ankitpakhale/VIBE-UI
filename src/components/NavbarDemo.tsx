@@ -25,7 +25,7 @@ const NavbarDemo: React.FC<NavbarDemoProps> = ({ className }) => {
   return (
     <div
       className={cn(
-        'fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 flex items-center justify-center border-white',
+        'fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 flex items-center justify-center border-black',
         className
       )}
     >
@@ -41,7 +41,7 @@ const NavbarDemo: React.FC<NavbarDemoProps> = ({ className }) => {
             setActive={setActive}
             active={active}
             item="Home"
-            icon={<HiHome className="w-6 text-white mt-2" />}
+            icon={<HiHome className="w-6 text-white mt-3" />}
           />
         </Link>
 
@@ -50,7 +50,7 @@ const NavbarDemo: React.FC<NavbarDemoProps> = ({ className }) => {
             setActive={setActive}
             active={active}
             item="About Us"
-            icon={<HiAcademicCap className="w-6 text-white mt-2" />}
+            icon={<HiAcademicCap className="w-6 text-white mt-3" />}
           />
         </Link>
 
@@ -58,7 +58,7 @@ const NavbarDemo: React.FC<NavbarDemoProps> = ({ className }) => {
           setActive={setActive}
           active={active}
           item="Our Courses"
-          icon={<HiBookOpen className="w-6 text-white mt-2" />}
+          icon={<HiBookOpen className="w-6 text-white mt-3" />}
         >
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/courses/all-courses">
@@ -89,7 +89,7 @@ const NavbarDemo: React.FC<NavbarDemoProps> = ({ className }) => {
             setActive={setActive}
             active={active}
             item="Contact Us"
-            icon={<FaMapMarkerAlt className="w-6 text-white mt-2" />}
+            icon={<FaMapMarkerAlt className="w-6 text-white mt-3" />}
           />
         </Link>
       </Menu>
