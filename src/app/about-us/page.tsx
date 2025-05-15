@@ -18,7 +18,7 @@ import Footer from '@/components/Footer';
 const page = () => {
   return (
     <>
-      <div className="pt-36 h-full w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
+      <div className="pt-36 h-full w-full bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
         <div className="px-5 sm:px-30 flex flex-col items-center justify-center">
           <PageHeading title="About Us" />
 
@@ -47,8 +47,9 @@ const page = () => {
           {/* Our Vision */}
           <div className="mt-10">
             <h2 className="md:text-4xl text-xl text-white relative z-20 text-center my-2">
-              🌍 Our Vision
+              <span className="inline-block animate-spin">🌍</span> Our Vision
             </h2>
+
             <p className="text-center text-neutral-300 relative z-20">
               To{' '}
               <span className="font-bold">democratize world-class music education</span>
@@ -123,7 +124,7 @@ const page = () => {
             </p>
           </div>
           {/* Join Us on the Journey */}
-          <div className="mt-10 mb-30">
+          <div className="mt-10">
             <h2 className="md:text-4xl text-xl text-white relative z-20 text-center my-2">
               🚀 Join Us on the Journey
             </h2>
@@ -135,10 +136,16 @@ const page = () => {
               </span>
               .
             </p>
-            <p className="font-bold text-neutral-300">
+            <p className="font-bold text-neutral-300 text-center">
               VIBE is not just about learning music. It’s about loving music, living
               music, and evolving through music.
             </p>
+          </div>
+          {/* Closing Statement */}
+          <div className="mt-10 mb-15">
+            <h2 className="md:text-4xl text-xl text-white italic relative z-20 text-center my-2">
+              🎵 VIBE – Where Music Meets AI.
+            </h2>
           </div>
         </div>
 
