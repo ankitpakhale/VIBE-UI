@@ -11,6 +11,8 @@ import {
   FaPhone,
   FaHeart,
   FaRegCopyright,
+  FaGithub,
+  FaClock,
 } from 'react-icons/fa';
 import { BackgroundBeamsWithCollision } from './ui/background-beams-with-collision';
 import Image from 'next/image';
@@ -112,16 +114,19 @@ const Footer = () => {
                 </p>
               </div>
               <div className="flex items-center space-x-2">
-                <FaEnvelope className="w-5 h-5 text-white" />
-                <Link href="mailto:akp3067@gmail.com" className="text-base text-gray-400">
-                  akp3067@gmail.com
+                <FaGithub className="w-5 h-5 text-white" />
+                <Link
+                  href="https://github.com/ankitpakhale/VIBE-UI"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-base text-gray-400"
+                >
+                  VIBE-UI
                 </Link>
               </div>
               <div className="flex items-center space-x-2">
-                <FaPhone className="w-5 h-5 text-white" />
-                <Link href="tel:+919407328187" className="text-base text-gray-400">
-                  +91 940 732 8187
-                </Link>{' '}
+                <FaClock className="w-5 h-5 text-white" />
+                <p className="text-base text-gray-400">Time Zone: IST (UTC+5:30)</p>
               </div>
             </div>
           </div>
